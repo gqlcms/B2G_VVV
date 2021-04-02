@@ -1,0 +1,9 @@
+[submodule "rooutil"]
+	path = rooutil
+	url = git@github.com:sgnoohc/rooutil.git
+[submodule "NanoTools"]
+	path = NanoTools
+	url = git@github.com:cmstas/NanoTools.git
+[submodule "ProjectMetis"]
+	path = ProjectMetis
+	url = git@github.com:aminnj/ProjectMetis.git

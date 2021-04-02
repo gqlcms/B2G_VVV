@@ -1,0 +1,60 @@
+=========================================================
+ Setting of the analysis job based on provided arguments 
+---------------------------------------------------------
+ ana.input_file_list_tstring: /eos/user/q/qiguo/NanoAOD/test_file/RunIIFall17NanoAODv7/A91AC909-50E5-6043-9438-2ACFA74EDDA3.root
+ ana.output_tfile: debug.root
+ ana.n_events: 1000
+ ana.nsplit_jobs: -1
+ ana.job_index: -1
+ ana.write_tree: 1
+ ana.region: 0
+ ana.vhvvv_channel: -999
+ ana.run_VVVTree: 0
+=========================================================
+>>> Hostname is lxplus774.cern.ch
+inputs : /eos/user/q/qiguo/NanoAOD/test_file/RunIIFall17NanoAODv7/A91AC909-50E5-6043-9438-2ACFA74EDDA3.root
+                                                                                                    RooUtil:: Adding /eos/user/q/qiguo/NanoAOD/test_file/RunIIFall17NanoAODv7/A91AC909-50E5-6043-9438-2ACFA74EDDA3.root
+                                                                                                    RooUtil:: Start EventLooping
+                                                                                                    RooUtil:: System info:
+lxplus774.cern.ch
+Linux lxplus774.cern.ch 3.10.0-1160.21.1.el7.x86_64 #1 SMP Tue Mar 16 18:28:22 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Thu Apr  1 16:46:13 CEST 2021
+qiguo
+/eos/user/q/qiguo/B2G/1lep/NanoAOD/VVVNanoLooper
+                                                                                                    RooUtil::  _
+                                                                                                    RooUtil:: /\\
+                                                                                                    RooUtil:: \ \\  \__/ \__/
+                                                                                                    RooUtil::  \ \\ (oo) (oo)  Here we come!
+                                                                                                    RooUtil::   \_\\/~~\_/~~\_
+                                                                                                    RooUtil::  _.-~===========~-._
+                                                                                                    RooUtil:: (___________________)
+                                                                                                    RooUtil::       \_______/
+                                                                                                    RooUtil:: 
+                                                                                                    RooUtil::  Your friendly aliens
+                                                                                                    RooUtil::      Surf & Turf
+                                                                                                    RooUtil:: 
+                                                                                                    RooUtil:: Total Events in this Chain to process = 1000
+                                                                                                    RooUtil:: Cut name|pass|weight|systs
+                                                                                                    RooUtil:: ======================================================================================
+                                                                                                    RooUtil:: Root| 0 | 0.000000|
+                                                                                                    RooUtil::   Wgt                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | 0 | 0.000000|
+                                                                                                    RooUtil::     SelectVH                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 0 | 0.000000|
+                                                                                                    RooUtil::       CommonCut                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 0 | 0.000000|
+                                                                                                    RooUtil:: TTreeCache enabled
+                                                                                                    RooUtil:: Looping /eos/user/q/qiguo/NanoAOD/test_file/RunIIFall17NanoAODv7/A91AC909-50E5-6043-9438-2ACFA74EDDA3.root/TTree:Events
+RooUtil:: \|========............| 43.2 % (433/1000) with  [45 Hz]   ETA 00:00:12         RooUtil:: ||========............| 44.0 % (441/1000) with  [46 Hz]   ETA 00:00:12         RooUtil:: /|=========...........| 45.0 % (451/1000) with  [47 Hz]   ETA 00:00:11         RooUtil:: -|=========...........| 46.0 % (461/1000) with  [48 Hz]   ETA 00:00:11         RooUtil:: \|=========...........| 47.0 % (471/1000) with  [49 Hz]   ETA 00:00:10         RooUtil:: ||=========...........| 48.0 % (481/1000) with  [50 Hz]   ETA 00:00:10         RooUtil:: /|=========...........| 48.4 % (485/1000) with  [50 Hz]   ETA 00:00:10         RooUtil:: -|=========...........| 49.5 % (496/1000) with  [51 Hz]   ETA 00:00:09         RooUtil:: \|==========..........| 50.6 % (507/1000) with  [52 Hz]   ETA 00:00:09         RooUtil:: ||==========..........| 51.7 % (518/1000) with  [54 Hz]   ETA 00:00:08         RooUtil:: /|==========..........| 52.8 % (529/1000) with  [55 Hz]   ETA 00:00:08         RooUtil:: -|==========..........| 54.0 % (541/1000) with  [56 Hz]   ETA 00:00:08         RooUtil:: \|===========.........| 55.2 % (553/1000) with  [57 Hz]   ETA 00:00:07         RooUtil:: ||===========.........| 56.4 % (565/1000) with  [58 Hz]   ETA 00:00:07         RooUtil:: /|===========.........| 57.6 % (577/1000) with  [60 Hz]   ETA 00:00:07         RooUtil:: -|===========.........| 58.5 % (586/1000) with  [60 Hz]   ETA 00:00:06         RooUtil:: \|===========.........| 59.8 % (599/1000) with  [62 Hz]   ETA 00:00:06         RooUtil:: ||============........| 61.1 % (612/1000) with  [63 Hz]   ETA 00:00:06         RooUtil:: /|============........| 62.4 % (625/1000) with  [64 Hz]   ETA 00:00:05         RooUtil:: -|============........| 63.7 % (638/1000) with  [66 Hz]   ETA 00:00:05         RooUtil:: \|============........| 64.4 % (645/1000) with  [66 Hz]   ETA 00:00:05         RooUtil:: ||=============.......| 65.8 % (659/1000) with  [68 Hz]   ETA 00:00:05         RooUtil:: /|=============.......| 67.2 % (673/1000) with  [69 Hz]   ETA 00:00:04         RooUtil:: -|=============.......| 68.6 % (687/1000) with  [71 Hz]   ETA 00:00:04         RooUtil:: \|=============.......| 69.0 % (691/1000) with  [71 Hz]   ETA 00:00:04         RooUtil:: ||==============......| 70.5 % (706/1000) with  [73 Hz]   ETA 00:00:04         RooUtil:: /|==============......| 72.0 % (721/1000) with  [74 Hz]   ETA 00:00:03         RooUtil:: -|==============......| 73.5 % (736/1000) with  [76 Hz]   ETA 00:00:03         RooUtil:: \|==============......| 73.6 % (737/1000) with  [76 Hz]   ETA 00:00:03         RooUtil:: ||===============.....| 75.2 % (753/1000) with  [77 Hz]   ETA 00:00:03         RooUtil:: /|===============.....| 76.8 % (769/1000) with  [79 Hz]   ETA 00:00:02         RooUtil:: -|===============.....| 78.4 % (785/1000) with  [81 Hz]   ETA 00:00:02         RooUtil:: \|===============.....| 79.9 % (800/1000) with  [82 Hz]   ETA 00:00:02         RooUtil:: ||================....| 81.6 % (817/1000) with  [83 Hz]   ETA 00:00:02         RooUtil:: /|================....| 83.3 % (834/1000) with  [85 Hz]   ETA 00:00:01         RooUtil:: -|================....| 84.6 % (847/1000) with  [86 Hz]   ETA 00:00:01         RooUtil:: \|=================...| 86.4 % (865/1000) with  [88 Hz]   ETA 00:00:01         RooUtil:: ||=================...| 88.2 % (883/1000) with  [90 Hz]   ETA 00:00:01         RooUtil:: /|=================...| 89.3 % (894/1000) with  [91 Hz]   ETA 00:00:01         RooUtil:: -|==================..| 91.2 % (913/1000) with  [93 Hz]   ETA 00:00:00         RooUtil:: \|==================..| 93.1 % (932/1000) with  [95 Hz]   ETA 00:00:00         RooUtil:: ||==================..| 94.0 % (941/1000) with  [96 Hz]   ETA 00:00:00         RooUtil:: /|===================.| 96.0 % (961/1000) with  [98 Hz]   ETA 00:00:00         RooUtil:: -|===================.| 98.0 % (981/1000) with  [100 Hz]   ETA 00:00:00         RooUtil:: \|===================.| 98.7 % (988/1000) with  [100 Hz]   ETA 00:00:00         RooUtil::+|====================| 100.0 % (1000/1000) with  [avg. 102 Hz]   Total Time: 00:00:09         
+                                                                                                    RooUtil:: Wrote output to debug.root
+                                                                                                    RooUtil:: 
+                                                                                                    RooUtil::    \__/    \__/
+                                                                                                    RooUtil::  S (oo)    (oo)
+                                                                                                    RooUtil:: (\//~~\\  //~~\\
+                                                                                                    RooUtil::  \/\__//  \\__//\T
+                                                                                                    RooUtil::    ||||    ||\\ Who cares!
+                                                                                                    RooUtil:: __ |||| __ |||| ___
+                                                                                                    RooUtil::   (_)(_)  (_)(_)
+                                                                                                    RooUtil:: 
+
+------------------------------
+CPU  Time:	1.1
+Real Time:	3.4
+
